@@ -1,14 +1,15 @@
 import os
 import sys
-from src.logger.loging import logging
-from src.exception.exception import customexception
-import pandas as pd
+# from src.logger.loging import logging
+# from src.exception.exception import customexception
+
 
 from src.components.data_ingestion import DataIngestion
 from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
 from src.components.model_evaluation import ModelEvaluation
 
+import pandas as pd
 
 obj=DataIngestion()
 
